@@ -45,5 +45,5 @@ app.use('/contracts', require('./routes/contracts'));
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`TVDE Fleet Manager running at http://localhost:${PORT}`);
+  console.log(`Wisdom Fleet Manager running at http://localhost:${PORT}`);
 });
